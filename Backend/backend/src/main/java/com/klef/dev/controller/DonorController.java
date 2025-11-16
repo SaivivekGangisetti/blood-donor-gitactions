@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/donor")
-@CrossOrigin
+@CrossOrigin(origins = "*")
 public class DonorController {
 	
 	@GetMapping("/")

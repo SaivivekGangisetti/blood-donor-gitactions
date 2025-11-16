@@ -1,5 +1,5 @@
 const config = {
-  BASE_URL: "http://localhost:2030/backend/donor"
+  BASE_URL: "http://localhost:2000/donor"
 };
 
 export default config;
